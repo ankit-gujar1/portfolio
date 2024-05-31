@@ -12,9 +12,21 @@ const exampleText = ['MERN\n Developer',
     'Backend\n Developer',
     'Frontend\n Developer'];
 const exampleTyping = new AutoTyping('.text', exampleText, {
-    typeSpeed: 50,
-    deleteSpeed: 50,
+    typeSpeed: 100,
+    deleteSpeed: 100,
     waitBeforeDelete: 2000,
     waitBetweenWords: 500,
 });
 exampleTyping.start()
+
+const exampleTextxl = ['MERN Developer',
+    'React Developer',
+    'Backend Developer',
+    'Frontend Developer'];
+const exampleTypingxl = new AutoTyping('.textxl', exampleTextxl, {
+    typeSpeed: 100,
+    deleteSpeed: 100,
+    waitBeforeDelete: 2000,
+    waitBetweenWords: 500,
+});
+exampleTypingxl.start()
